@@ -1,0 +1,33 @@
+/*RESET CSS{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;                
+	font: inherit;
+	vertical-align: baseline;
+}*/
+* {
+    /*border: 1px solid black;*/
+    margin: 0;
+    padding: 0;
+}
+#carousel {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+#carousel > ul {
+    list-style-type: none;
+    width: 2000px;
+}
+#carousel > ul > li {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+#img1 {background: url("https://static.pexels.com/photos/401107/pexels-photo-401107.jpeg") 0/cover}
+#img2 {background: url("https://static.pexels.com/photos/401213/pexels-photo-401213.jpeg") 0/cover}
+#img3 {background: url("https://static.pexels.com/photos/203930/pexels-photo-203930.jpeg") 0/cover}
+#img4 {background: url("https://static.pexels.com/photos/405034/pexels-photo-405034.jpeg") 0/cover}
+#img5 {background: url("https://static.pexels.com/photos/404966/pexels-photo-404966.jpeg") 0/cover}
